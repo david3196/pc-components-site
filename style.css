@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+ul{
+    margin: 0;
+}
+.promo-img{
+    width:100%;
+    height:100vh;
+    object-fit: cover;
+    animation-name: changeImg;
+    animation-duration: 2s;
+    z-index: -1;
+}
+@keyframes changeImg{
+    from{opacity: .5}
+    to{opacity: 1}
+}
+.connect-status{
+    position: fixed;
+    bottom:0;
+    height: 30px;
+    width: 100%;
+    background-color: red;
+    font-weight: bold;
+    color: black;
+    z-index: 3;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}

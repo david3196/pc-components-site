@@ -1,0 +1,96 @@
+.container{
+    margin-top: 70px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.images{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.img{
+    height: 30vh;
+    
+}
+table { 
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+td{
+    border: 0.5px solid white;
+    padding: 2px 5px;
+}
+tr:hover{
+    background-color: rgb(40,40,40);
+}
+h2{
+    text-align: center;
+}
+
+
+.set-quantity{
+    display: flex;
+    align-items: center;
+}
+.modif-qnt {
+    background-color: rgb(26, 255, 26);
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 40px;
+    position: relative;
+   
+}
+.modif-qnt:hover {
+    background-color: rgb(29, 170, 29);
+    color: white;
+}
+.quantity{
+    margin: 0 10px;
+    text-align: center;
+    height: 25px;
+    width: 175px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    border: black;
+}
+.add-btn{
+    border: none;
+    background-color: rgb(26, 255, 26);
+    padding: 15px 10px;
+    font-weight: bolder;
+    border-radius: 50px;
+    margin: 10px 0px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.add-btn:hover{
+    background-color: rgb(29, 170, 29);
+    color: white;
+}
+.add-to-cart{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.add-to-cart-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#plus {
+    left: -20px;
+}
+#minus {
+    right: -20px;
+}

@@ -1,0 +1,95 @@
+#acc-btn{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+#connect-screen{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    animation-name: bck-animation;
+    animation-duration: 3s;
+    z-index: 2;
+    font-family: sans-serif;
+}
+@keyframes acc-animation {
+    0% {top: -10px;}
+}
+@keyframes bck-animation {
+    0% {background-color: rgba(0, 0, 0, 0);}
+}
+.account-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgb(37, 37, 37);
+    padding: 10px;
+    width: 300px;
+    height: 500px;
+    grid-template-columns: auto;
+    color: white;
+    animation-name: acc-animation;
+    animation-duration: 1.5s;
+}
+#login{
+    height: 400px;
+}
+.xbtn{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    font-size: larger;
+    font-weight: bolder;
+    border: none;
+    background-color:rgb(37, 37, 37);
+    color: white;
+    cursor: pointer;
+}
+.Email, .Pass, .Name, .Surname{
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px 5px;
+    font-size: large;
+    background-color:rgb(59, 59, 59);
+    color: white;
+    border: none;
+}
+.formBtn{
+    width: 90%;
+    margin: 20px 0;
+    padding: 20px 2px;
+    font-size: larger;
+    font-weight: bold;
+    background-color: rgb(59, 184, 59);
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+}
+.formBtn:hover{
+    background-color: rgb(33, 107, 33);
+    color: white;
+    transition: 1s;
+}
+.footer{
+    position: absolute;
+    width: 95%;
+    text-align: center;
+    bottom: 0;
+    margin-bottom: 10px;
+    font-size: small;
+    color: white;
+    text-decoration: none;
+}
+h4{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+a{
+    color: white;
+}
